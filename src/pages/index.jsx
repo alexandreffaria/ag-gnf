@@ -145,12 +145,12 @@ const IndexPage = ({
 }) => (
   <Layout>
     <Header>
-      <Logo>Dia do Arauto</Logo>
+      <Logo>Dia do Arauto 🕶</Logo>
       <Hero justifyContent="center" alignItems="center" flexDirection="column">
         <h1>
-          We design and develop <br /> noice web applications.
+          A gente te escuta. <br /> A gente te ajuda.
         </h1>
-        <h3>Hi, Bella Inc., the human form of the 💯 Emoji.</h3>
+        <h3>Oi, a <i>DDA</i>, está aqui pra impulsionar seu negócio. 💪🚀</h3>
       </Hero>
     </Header>
     <Wrapper p={4} mb={[4, 4, 7]} mx="auto" justifyContent="space-between" flexWrap="wrap">
