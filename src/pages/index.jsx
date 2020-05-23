@@ -6,9 +6,10 @@ import { Flex } from 'grid-emotion';
 import Footer from '../components/Footer';
 import Layout from '../components/Layout';
 import GridItem from '../components/GridItem';
-import BeTheHero from '../images/be_the_hero.svg';
-import DataReport from '../images/data_report.svg';
-import MayTheForce from '../images/may_the_force.svg';
+import InThought from '../images/in_thought.svg';
+import CoWorking from '../images/co-working.svg';
+import Conversation from '../images/conversation.svg';
+import Solution from '../images/solution.svg';
 
 
 const Header = styled.header`
@@ -171,63 +172,106 @@ const IndexPage = ({
       <Wrapper flexDirection="column" p={4} mx="auto">
         <Flex w={1} py={5} justifyContent="space-between" flexWrap="wrap">
           <ServiceImage>
-            <img src={BeTheHero} alt="Be The Hero" />
+            <img src={InThought} alt="Nossa História" />
           </ServiceImage>
           <ServiceText>
             <h2>Nossa História</h2>
             <p>
-              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
-              ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is
-              a paradisematic country, in which roasted parts of sentences fly into your mouth.
+              A Dia do Arauto é uma agência meio diferente. Dá uma olhada na nossa história, que você vai entender.
             </p>
-            <ul>
-              <li>Service Super</li>
-              <li>Great Offer</li>
-              <li>Item Wrap</li>
-            </ul>
+            <p>
+              A gente surgiu como uma agência de publicidade para artistas em 2017, querendo ajudar pessoas criativas a terem uma divulgação mais profissional. 
+              Aí chegou a empresa de um amigo, depois outra de uma indicação, depois mais uma, todas buscando alguém que pudesse introduzir seus negócios no marketing digital, 
+              sem ter que cobrar "os olhos da cara" ou deixar o cliente mais perdido do que ele estava antes.
+            </p>
+            <p>
+              Foi aí que percebemos como aqueles profissionais eram tão apaixonados por suas mensagens quanto os compositores, bandas e escultores. 
+              E decidimos que atenderíamos artistas, empresas, profissionais autônomos e pessoas que quisessem transmitir uma mensagem positiva através 
+              de plataformas como o Instagram e o Youtube.
+            </p>
+            <p>
+              Desde então, trabalhamos com mais de 40 empresas, artistas e profissionais diferentes, de todos os tipos. Ampliamos nossa base de 
+              serviços para coisas que nem nós, nem os clientes, jamais imaginaríamos, vimos o nascer e o morrer de técnicas e ferramentas como 
+              os robôzinhos para o Instagram (R.I.P) e aprendemos muito sobre negócios, vendas, marca, viralização e visibilidade.
+            </p>
+            <p>
+              Hoje sabemos exatamente como uma estratégia sólida precisa de dedicação, planejamento e execução de qualidade. É se colocar no lugar do cliente, 
+              seja ele dono, diretor, vocalista ou estagiário, e buscar realmente aquilo que vai fazer com ele tenha uma vida melhor, 
+              e seu projeto tenha a oportunidade de encontrar um mundo de pessoas que querem e precisam dele.
+            </p>
+            <p>
+              Não estamos aqui para oferecer, e sim para ouvir o que você precisa. Vamos trocar uma ideia?
+            </p>
           </ServiceText>
         </Flex>
         <Flex w={1} py={5} justifyContent="space-between" flexDirection="row-reverse" flexWrap="wrap">
           <ServiceImage>
-            <img src={DataReport} alt="Data Report" />
+            <img src={CoWorking} alt="Como Trabalhamos" />
           </ServiceImage>
           <ServiceText>
-            <h2>We love charts!</h2>
+            <h2>Como funciona nosso trabalho</h2>
             <p>
-              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
-              ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.
+              Colocar os planos em prática é um desafio, mas isso não significa que você (ou nós) precisamos fazer isso sozinhos.
             </p>
-            <ul>
-              <li>Service Super</li>
-              <li>Great Offer</li>
-              <li>Item Wrap</li>
-            </ul>
+            <p>
+              Estamos aqui para "traduzir". Traduzir a sua experiência no seu negócio em uma estratégia de comunicação. 
+              Traduzir os resultados dessa estratégia de crescimento para que você não só saiba que as coisas vão bem, 
+              mas entenda PORQUE elas vão bem (e como chegamos lá.)
+            </p>
+            <p>
+              Ou seja, vamos fazer uma reunião (ao vivo, de preferência) para entender o que está atrapalhando sua vida ou seu negócio. 
+              Nessa reunião vamos esboçar uma estratégia e uma proposta de serviços pra essa estratégia. 
+              Se você topar, a partir daí começa uma troca constante de informações entre a gente. 
+              Você passando a sua visão sobre os resultados "na prática" e nós iremos te atualizar com informações sobre como os clientes 
+              estão interagindo e como podemos melhorar os resultados. Tudo em linguagem de gente, feito para o seu nível de intimidade com termos de marketing.
+            </p>
           </ServiceText>
         </Flex>
         <Flex w={1} py={5} justifyContent="space-between" flexWrap="wrap">
           <ServiceImage>
-            <img src={MayTheForce} alt="May the Force" />
+            <img src={Conversation} alt="Reunião" />
           </ServiceImage>
           <ServiceText>
-            <h2>May the force be with you</h2>
+            <h2>Uma Reunião Para A Gente Se Entender Melhor!</h2>
             <p>
-              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
-              ocean.
+              Achou interessante? Ou ainda está na dúvida se serve para o seu negócio?
+              Não tem problema, tudo que precisamos é uma boa e velha conversa.
+              Assim podemos nos conhecer e sentir se trabalharemos bem juntos, 
+              se conseguimos nos entender e se estamos realmente animados com o projeto um do outro.
             </p>
-            <ul>
-              <li>Service Super</li>
-              <li>Great Offer</li>
-            </ul>
+            <p>
+              Somos especializados em marketing digital como um todo, mas nunca tivemos medo de atuar 
+              em quaisquer outros pilares que sua empresa ou sua carreira necessitam. 
+              Foi assim que começamos a fazer ensaios fotográficos, logos, videos de drone, impressão 3D, lojas online, 
+              e mais um monte de outras coisas. Dá uma olhada no nosso portfólio.
+            </p>
+          </ServiceText>
+        </Flex>
+        <Flex w={1} py={5} justifyContent="space-between" flexWrap="wrap">
+          <ServiceImage>
+            <img src={Solution} alt="Solucão" />
+          </ServiceImage>
+          <ServiceText>
+            <h2>E esse nome esquisito? O que quer dizer <i>Dia do Arauto</i>?</h2>
+            <p>
+              Achou interessante? Ou ainda está na dúvida se serve para o seu negócio?
+              Não tem problema, tudo que precisamos é uma boa e velha conversa.
+              Assim podemos nos conhecer e sentir se trabalharemos bem juntos, 
+              se conseguimos nos entender e se estamos realmente animados com o projeto um do outro.
+            </p>
+            <p>
+              Somos especializados em marketing digital como um todo, mas nunca tivemos medo de atuar 
+              em quaisquer outros pilares que sua empresa ou sua carreira necessitam. 
+              Foi assim que começamos a fazer ensaios fotográficos, logos, videos de drone, impressão 3D, lojas online, 
+              e mais um monte de outras coisas. Dá uma olhada no nosso portfólio.
+            </p>
           </ServiceText>
         </Flex>
       </Wrapper>
     </PrimaryBG>
     <Contact px={4} py={6} justifyContent="center" alignItems="center" flexDirection="column">
-      <h1>Say hi!</h1>
-      <h3>contact@domain.com</h3>
+      <h1>Manda um oi!</h1>
+      <h3>contato@diadoarauto.com.br</h3>
     </Contact>
     <Footer />
   </Layout>
