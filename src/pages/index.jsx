@@ -82,7 +82,9 @@ const ServiceImage = styled.div`
   flex-basis: calc(99.9% * 4 / 7 - 5rem);
   max-width: calc(99.9% * 4 / 7 - 5rem);
   width: calc(99.9% * 4 / 7 - 5rem);
-  text-align: center;
+  display: flex;
+  align-itens: center;
+  justify-content: center;
   img {
     width: 90%;
     margin-bottom: 2rem;
@@ -106,6 +108,7 @@ const ServiceText = styled.div`
   flex-basis: calc(99.9% * 3 / 7 - 5rem);
   max-width: calc(99.9% * 3 / 7 - 5rem);
   width: calc(99.9% * 3 / 7 - 5rem);
+  
   @media (max-width: ${props => props.theme.breakpoint.l}) {
     flex-basis: 100%;
     max-width: 100%;
@@ -247,7 +250,7 @@ const IndexPage = ({
             </p>
           </ServiceText>
         </Flex>
-        <Flex w={1} py={5} justifyContent="space-between" flexDirection="row-reverse" flexWrap="wrap">
+        <Flex w={1} py={5} justifyContent="space-between" flexDirection="row-reverse" flexWrap="wrap" >
           <ServiceImage>
             <img src={Solution} alt="Solucão" />
           </ServiceImage>
