@@ -18,8 +18,8 @@ module.exports = {
     {
       resolve: 'gatsby-source-prismic',
       options: {
-        repositoryName: 'gatsby-starter-portfolio-bella',
-        accessToken: `${process.env.API_KEY}`,
+        repositoryName: 'diadoarauto',
+        accessToken: `MC5Yc2tEX2hFQUFDVUFDOGls.a--_vQzvv73vv73vv70g77-977-977-9a0zvv73vv71YSgt677-9YO-_vVV0DFZnBe-_vT0XH--_vQ`,
         linkResolver: ({ node, key, value }) => doc => `/${doc.uid}`,
         htmlSerializer: ({ node, key, value }) => (type, element, content, children) => {
           // Your HTML serializer
