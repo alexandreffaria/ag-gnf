@@ -247,7 +247,7 @@ const IndexPage = ({
             </p>
           </ServiceText>
         </Flex>
-        <Flex w={1} py={5} justifyContent="space-between" flexWrap="wrap">
+        <Flex w={1} py={5} justifyContent="space-between" flexDirection="row-reverse" flexWrap="wrap">
           <ServiceImage>
             <img src={Solution} alt="Solucão" />
           </ServiceImage>
