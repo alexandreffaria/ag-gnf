@@ -155,7 +155,7 @@ const IndexPage = ({
         <h1>
           A gente te escuta. <br /> A gente te ajuda.
         </h1>
-        <h3>Oi, a <i>DDA</i>, está aqui pra impulsionar seu negócio. 💪🚀</h3>
+        <h3>Aqui pra impulsionar seu negócio. 💪🚀</h3>
       </Hero>
     </Header>
     {/* <Wrapper p={4} mb={[4, 4, 7]} mx="auto" justifyContent="space-between" flexWrap="wrap">
