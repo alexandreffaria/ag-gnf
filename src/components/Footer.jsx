@@ -54,7 +54,7 @@ const Footer = ({ isCase }) => {
             <div>
               Direitos reservados &copy; {year} por{' '}Dia do Arauto.
             </div>
-            <div>Intagram &mdash; Facebook &mdash; LinkedIn</div>
+            <div>Instagram &mdash; Facebook &mdash; LinkedIn</div>
           </React.Fragment>
         )}
       </Inner>
