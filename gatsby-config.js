@@ -1,6 +1,4 @@
-require('dotenv').config({
-  path: `.env.${process.env.NODE_ENV}`,
-});
+
 const config = require('./config/website');
 
 const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix;
