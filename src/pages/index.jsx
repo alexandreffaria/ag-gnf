@@ -10,6 +10,7 @@ import BeTheHero from '../images/be_the_hero.svg';
 import DataReport from '../images/data_report.svg';
 import MayTheForce from '../images/may_the_force.svg';
 
+
 const Header = styled.header`
   width: 100%;
   height: 900px;
@@ -153,7 +154,7 @@ const IndexPage = ({
         <h3>Oi, a <i>DDA</i>, está aqui pra impulsionar seu negócio. 💪🚀</h3>
       </Hero>
     </Header>
-    <Wrapper p={4} mb={[4, 4, 7]} mx="auto" justifyContent="space-between" flexWrap="wrap">
+    {/* <Wrapper p={4} mb={[4, 4, 7]} mx="auto" justifyContent="space-between" flexWrap="wrap">
       {edges.map(c => (
         <GridItem
           uid={c.node.uid}
@@ -164,7 +165,8 @@ const IndexPage = ({
           subtitle={c.node.data.subtitle.text}
         />
       ))}
-    </Wrapper>
+    </Wrapper> */}
+    
     <PrimaryBG>
       <Wrapper flexDirection="column" p={4} mx="auto">
         <Flex w={1} py={5} justifyContent="space-between" flexWrap="wrap">
@@ -172,7 +174,7 @@ const IndexPage = ({
             <img src={BeTheHero} alt="Be The Hero" />
           </ServiceImage>
           <ServiceText>
-            <h2>Be your own hero</h2>
+            <h2>Nossa História</h2>
             <p>
               Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
               blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
